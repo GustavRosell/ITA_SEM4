@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE/Editor specifikke filer
+.vscode/
+.idea/
+
+# Generelle kompilationsoutput
+*.obj
+*.exe
+*.class
+
+# Midlertidige filer
+*.tmp
+*.log
