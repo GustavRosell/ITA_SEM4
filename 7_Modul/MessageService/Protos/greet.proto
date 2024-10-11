@@ -10,9 +10,11 @@ service Greeter {
   rpc SayHello (HelloRequest) returns (HelloReply);
 }
 
-// The request message containing the user's name.
+// The request message containing the user's title, name, and last name.
 message HelloRequest {
-  string name = 1;
+  string title = 1;      // Tilføj titel
+  string name = 2;       // Opdateret til at være nummer 2
+  string last_name = 3;  // Tilføj last_name
 }
 
 // The response message containing the greetings.
