@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "VaultSharp/1.17.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/VaultSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/VaultSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VaultSharp/1.17.5.1": {
+      "sha512": "1O/F+AQCkyK4K709pBDYEbDDfJ12OlaE5lnOs9dffq+KxqrnPxh8FIdQtEst9yBJmC7I0BptftzTJyRSwhZR/A==",
+      "type": "package",
+      "path": "vaultsharp/1.17.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/VaultSharp.dll",
+        "lib/net462/VaultSharp.xml",
+        "lib/net47/VaultSharp.dll",
+        "lib/net47/VaultSharp.xml",
+        "lib/net471/VaultSharp.dll",
+        "lib/net471/VaultSharp.xml",
+        "lib/net472/VaultSharp.dll",
+        "lib/net472/VaultSharp.xml",
+        "lib/net48/VaultSharp.dll",
+        "lib/net48/VaultSharp.xml",
+        "lib/net481/VaultSharp.dll",
+        "lib/net481/VaultSharp.xml",
+        "lib/net6.0/VaultSharp.dll",
+        "lib/net6.0/VaultSharp.xml",
+        "lib/net7.0/VaultSharp.dll",
+        "lib/net7.0/VaultSharp.xml",
+        "lib/net8.0/VaultSharp.dll",
+        "lib/net8.0/VaultSharp.xml",
+        "lib/netstandard2.0/VaultSharp.dll",
+        "lib/netstandard2.0/VaultSharp.xml",
+        "lib/netstandard2.1/VaultSharp.dll",
+        "lib/netstandard2.1/VaultSharp.xml",
+        "vaultsharp.1.17.5.1.nupkg.sha512",
+        "vaultsharp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "VaultSharp >= 1.17.5.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/rosell/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/rosell/Projects/ITA_SEM4/10_Modul/SecretsApp/SecretsApp.csproj",
+      "projectName": "SecretsApp",
+      "projectPath": "/Users/rosell/Projects/ITA_SEM4/10_Modul/SecretsApp/SecretsApp.csproj",
+      "packagesPath": "/Users/rosell/.nuget/packages/",
+      "outputPath": "/Users/rosell/Projects/ITA_SEM4/10_Modul/SecretsApp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/rosell/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "VaultSharp": {
+            "target": "Package",
+            "version": "[1.17.5.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

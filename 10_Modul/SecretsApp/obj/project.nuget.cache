@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nPM+IvBUzqwQNof6IfcUVEzIHlW/1xhaoXYfdu2QWYbNSHAneTIOMoTBOJvw/aQZMOFC6yV5gow1bL5uVid3bA==",
+  "success": true,
+  "projectFilePath": "/Users/rosell/Projects/ITA_SEM4/10_Modul/SecretsApp/SecretsApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/rosell/.nuget/packages/vaultsharp/1.17.5.1/vaultsharp.1.17.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
