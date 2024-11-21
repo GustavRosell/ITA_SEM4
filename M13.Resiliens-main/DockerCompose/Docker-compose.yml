@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  servicea:
+    image: cbservice_compose
+    build:
+      context: ../CBService
+      dockerfile: Dockerfile
+    environment:
+      - ToFail=yes
+    expose:
+      - "8080"
+
+  serviceb:
+    image: cbservice_compose
+    build:
+      context: ../CBService
+      dockerfile: Dockerfile
+    environment:
+      - ToFail=no
+    expose:
+      - "8080"
+
+  nginx:
+    image: nginx
+    depends_on:
+      - servicea
+      - serviceb
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "4000:4000"  # Lytter på port 4000 på værten
