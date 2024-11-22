@@ -1,0 +1,19 @@
+[
+{
+    "productId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "productCategory": 2,
+    "title": "Granny Smith Apples",
+    "description": "Delicious granny smith apples, from local farms.",
+    "price": 12.50,
+    "images": []
+},
+{
+    "productId": "3fa85f64-5717-4562-b3fc-12363f66af88",
+    "productCategory": 1,
+    "title": "Florida Green Tomatoes",
+    "description": "Tomatoes from Florida.",
+    "price": 2.75,
+    "images": [
+    ]
+}
+]
